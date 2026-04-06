@@ -1,6 +1,6 @@
 {
   "name": "@hannapi/cool",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Template project for writing node package with napi-rs",
   "main": "index.js",
   "repository": {
@@ -35,7 +35,7 @@
     "node": ">= 6.14.2 < 7 || >= 8.11.2 < 9 || >= 9.11.0 < 10 || >= 10.0.0"
   },
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/",
+    "registry": "https://nexus.01112003.xyz/repository/Npm-Napi/",
     "access": "public"
   },
   "scripts": {
@@ -103,5 +103,11 @@
     "singleQuote": true,
     "arrowParens": "always"
   },
-  "packageManager": "yarn@4.13.0"
+  "packageManager": "yarn@4.13.0",
+  "optionalDependencies": {
+    "@hannapi/cool-win32-x64-msvc": "1.0.1",
+    "@hannapi/cool-darwin-x64": "1.0.1",
+    "@hannapi/cool-linux-x64-gnu": "1.0.1",
+    "@hannapi/cool-darwin-arm64": "1.0.1"
+  }
 }
