@@ -61,6 +61,28 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@hannapi/cool@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@hannapi/cool@workspace:."
+  dependencies:
+    "@emnapi/core": "npm:^1.5.0"
+    "@emnapi/runtime": "npm:^1.5.0"
+    "@napi-rs/cli": "npm:^3.2.0"
+    "@oxc-node/core": "npm:^0.1.0"
+    "@taplo/cli": "npm:^0.7.0"
+    "@tybys/wasm-util": "npm:^0.10.0"
+    ava: "npm:^7.0.0"
+    chalk: "npm:^5.6.2"
+    husky: "npm:^9.1.7"
+    lint-staged: "npm:^16.1.6"
+    npm-run-all2: "npm:^8.0.4"
+    oxlint: "npm:^1.14.0"
+    prettier: "npm:^3.6.2"
+    tinybench: "npm:^6.0.0"
+    typescript: "npm:^6.0.0"
+  languageName: unknown
+  linkType: soft
+
 "@inquirer/checkbox@npm:^4.2.2":
   version: 4.2.2
   resolution: "@inquirer/checkbox@npm:4.2.2"
@@ -1823,28 +1845,6 @@ __metadata:
   checksum: 10c0/d90aa0e3b6a27f9d5265a8d32def3c5c855b3e823a9db1f26d772f8146d6b91020a2fdfd905ce8048a73fad3aaf836fef8188c67602c374405e2ae8396c4ac46
   languageName: node
   linkType: hard
-
-"cool@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "cool@workspace:."
-  dependencies:
-    "@emnapi/core": "npm:^1.5.0"
-    "@emnapi/runtime": "npm:^1.5.0"
-    "@napi-rs/cli": "npm:^3.2.0"
-    "@oxc-node/core": "npm:^0.1.0"
-    "@taplo/cli": "npm:^0.7.0"
-    "@tybys/wasm-util": "npm:^0.10.0"
-    ava: "npm:^7.0.0"
-    chalk: "npm:^5.6.2"
-    husky: "npm:^9.1.7"
-    lint-staged: "npm:^16.1.6"
-    npm-run-all2: "npm:^8.0.4"
-    oxlint: "npm:^1.14.0"
-    prettier: "npm:^3.6.2"
-    tinybench: "npm:^6.0.0"
-    typescript: "npm:^6.0.0"
-  languageName: unknown
-  linkType: soft
 
 "cross-spawn@npm:^7.0.6":
   version: 7.0.6
